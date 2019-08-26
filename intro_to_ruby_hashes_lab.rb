@@ -11,7 +11,7 @@ def monopoly_with_second_tier
   # complexity.
   new_hash = bash_hash()
   
-  new_hash[:railroads] = { pieces => 4 }
+  new_hash[:railroads] = { "pieces" => 4 }
   
   new_hash
 end
